@@ -1,10 +1,10 @@
 # Diabetes Predictor
 
-This project focuses on developing a predictive model for diabetes classification based on health indicators. Using machine learning techniques, we analyze risk factors such as BMI, physical activity, cholesterol levels, and blood pressure to determine whether an individual is diabetic, pre-diabetic, or non-diabetic.
+This project focuses on developing a predictive model for diabetes classification based on health indicators. Using machine learning techniques, we analyze risk factors such as BMI, physical activity, cholesterol levels, and blood pressure to determine whether an individual is diabetic, pre-diabetes, or non-Diabetic.
 
 ## Overview
 
-The goal of this project is to build a machine learning model to predict **diabetes status** (No Diabetes, Pre-Diabetes, Diabetes) using **health-related features**. The dataset contains key **lifestyle and medical indicators** that help in identifying diabetes risk.
+The goal of this project is to build a machine learning model to predict **diabetes status** (No Diabetes, Pre Diabetes, Diabetes) using **health-related features**. The dataset contains key **lifestyle and medical indicators** that help in identifying diabetes risk.
 
 ### Target Variable
 - **Diabetes_012**  
@@ -13,14 +13,31 @@ The goal of this project is to build a machine learning model to predict **diabe
   - `2 = Diabetes`  
 
 ### Key Features
-- **BMI** (Body Mass Index)  
-- **High Blood Pressure** (0 = no high BP 1 = high BP)  
-- **High Cholesterol** (0 = no high cholesterol, 1 = high cholesterol)  
-- **Physical Activity** (physical activity in past 30 days - not including job. 0 = no, 1 = yes)  
-- **General Health Score**  (Would you say that in general your health is: scale 1-5. 
-                            1 = excellent 2 = very good 3 = good 4 = fair 5 = poor)
-- **Age** (13-level age category. 1 = 18-24 9 = 60-64 13 = 80 or older)
-- **Sex** (0 = female, 1 = male)  
+
+- **BMI** – Body Mass Index (continuous value)  
+- **High Blood Pressure** – Indicates if the person has high blood pressure  
+  - `0 = No High BP`  
+  - `1 = High BP`  
+- **High Cholesterol** – Indicates if the person has high cholesterol  
+  - `0 = No High Cholesterol`  
+  - `1 = High Cholesterol`  
+- **Physical Activity** – Engaged in physical activity in the past 30 days (excluding job-related activity)  
+  - `0 = No`  
+  - `1 = Yes`  
+- **General Health Score** – Self-reported health rating on a scale of 1-5  
+  - `1 = Excellent`  
+  - `2 = Very Good`  
+  - `3 = Good`  
+  - `4 = Fair`  
+  - `5 = Poor`  
+- **Age** – 13-level categorical variable representing age groups  
+  - `1 = 18-24`  
+  - `9 = 60-64`  
+  - `13 = 80 or older`  
+- **Sex** – Gender of the individual  
+  - `0 = Female`  
+  - `1 = Male`  
+
 
 ## Table of Contents
 
