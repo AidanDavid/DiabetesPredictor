@@ -100,11 +100,11 @@ Explore the **Tableau Public dashboard** (Tableau Public Workbook) to visualize 
 ### **Example Visualizations:**
 
 #### **Age Group vs. Average BMI** （The thicker of the Line means the high Blood Pressure）
-![Age vs. Avg BMI](image/age vs avg_bmi.jpg)
+![Age vs. Avg BMI](./image/age_vs_avg_bmi.jpg)
 
 
 #### **Age Group vs. Average High Cholesterol**
-![Age vs. Avg Chol](image/age vs avg_chol.jpg)
+![Age vs. Avg Chol](image/age_vs_avg_chol.jpg)
 
 🔗 **[View the Full Dashboard Here](https://public.tableau.com/app/profile/yiheng.sun/viz/diabetes_17406445784920/Story1)**  
 
