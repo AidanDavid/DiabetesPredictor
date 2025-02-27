@@ -6,18 +6,18 @@ This project focuses on developing a **predictive model for diabetes classificat
 
 ## 📌 Table of Contents
 
-- [Project Overview](#🎯-project-overview)
-- [Target Variable & Key Features](#🎯-target-variable--key-features)
-- [Usage Guide](#🛠️-usage-guide)
-- [Visualizations](#🌊-visualizations)
-- [Technologies Used](#🔧-technologies-used)
-- [References](#📚-references)
-- [Credits](#💪-credits)
-- [License](#📝-license)
+- [Project Overview](#project-overview)
+- [Target Variable & Key Features](#target-variable--key-features)
+- [Usage Guide](#usage-guide)
+- [Visualizations](#visualizations)
+- [Technologies Used](#technologies-used)
+- [References](#references)
+- [Credits](#credits)
+- [License](#license)
 
 ---
 
-## 🎯 Project Overview
+## Project Overview
 
 The goal of this project is to build a **machine learning model** to predict **diabetes status** (No Diabetes, Pre-Diabetes, Diabetes) using **health-related features**. The dataset contains **key lifestyle and medical indicators** that help in identifying diabetes risk.
 
@@ -29,7 +29,7 @@ The goal of this project is to build a **machine learning model** to predict **d
 
 ---
 
-## 🎯 Target Variable & Key Features
+## Target Variable & Key Features
 
 ### **Target Variable**
 - **Diabetes_012**  
@@ -60,7 +60,7 @@ The goal of this project is to build a **machine learning model** to predict **d
 
 ---
 
-## 🛠️ Usage Guide
+## Usage Guide
 
 ### 1️⃣ Clone the Repo
 To run this project locally, follow these steps:
@@ -86,7 +86,7 @@ Open the relevant notebook file and execute the cells step by step to **analyze 
 
 ---
 
-## 🌊 Visualizations
+## Visualizations
 
 Explore the **Tableau Public dashboard** (Tableau Public Workbook) to visualize diabetes risk factors:
 
@@ -101,7 +101,7 @@ Explore the **Tableau Public dashboard** (Tableau Public Workbook) to visualize 
 
 ---
 
-## 🔧 Technologies Used
+## Technologies Used
 - **Python**: For data analysis and visualization.  
 - **Pandas**: For data manipulation and aggregation.  
 - **Jupyter Notebook**: For executing data science workflows.  
@@ -109,14 +109,14 @@ Explore the **Tableau Public dashboard** (Tableau Public Workbook) to visualize 
 
 ---
 
-## 📚 References
+## References
 
 ### **Data Sources**
 - **Kaggle**: [Diabetes Health Indicators Dataset](https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset)
 
 ---
 
-## 💪 Credits
+## Credits
 
 This project was developed by:
 
@@ -131,5 +131,5 @@ This project was developed by:
 
 ---
 
-## 📝 License
+## License
 This project is licensed under the **MIT License**. See the [LICENSE](./LICENSE) file for details.  
