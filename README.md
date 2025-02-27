@@ -6,14 +6,14 @@ This project focuses on developing a **predictive model for diabetes classificat
 
 ## 📌 Table of Contents
 
-- [Project Overview](#project-overview)
-- [Target Variable & Key Features](#target-variable--key-features)
-- [Usage Guide](#usage-guide)
-- [Visualizations](#visualizations)
-- [Technologies Used](#technologies-used)
-- [References](#references)
-- [Credits](#credits)
-- [License](#license)
+- [Project Overview](#🎯-project-overview)
+- [Target Variable & Key Features](#🎯-target-variable--key-features)
+- [Usage Guide](#🛠️-usage-guide)
+- [Visualizations](#🌊-visualizations)
+- [Technologies Used](#🔧-technologies-used)
+- [References](#📚-references)
+- [Credits](#💪-credits)
+- [License](#📝-license)
 
 ---
 
@@ -47,7 +47,7 @@ The goal of this project is to build a **machine learning model** to predict **d
   - `1 = High Cholesterol`  
 - **Physical Activity** – Engagement in physical activity (excluding job-related activity)  
   - `0 = No`  
-  - `1 = Yes`    
+  - `1 = Yes`  
 - **Age** – Originally, the dataset categorized age into only three broad groups:
   - `1 = 18-24`  
   - `9 = 60-64`  
@@ -88,7 +88,7 @@ Open the relevant notebook file and execute the cells step by step to **analyze 
 
 ## 🌊 Visualizations
 
-Explore the **Tableau Public dashboard** to visualize diabetes risk factors:
+Explore the **Tableau Public dashboard** (Tableau Public Workbook) to visualize diabetes risk factors:
 
 [![View on Tableau Public](https://img.shields.io/badge/View-Tableau%20Public-blue)](https://public.tableau.com/app/profile/yiheng.sun/viz/diabetes_17406445784920/Story1)
 
