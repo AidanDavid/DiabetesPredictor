@@ -7,8 +7,8 @@ This project focuses on developing a **predictive model for diabetes classificat
 ## 📌 Table of Contents
 
 - [Project Overview](#project-overview)
-- [Target Variable & Key Features](#target-variable--key-features)
 - [Usage Guide](#usage-guide)
+- [Target Variable & Key Features](#target-variable--key-features)
 - [Visualizations](#visualizations)
 - [Technologies Used](#technologies-used)
 - [References](#references)
@@ -26,6 +26,32 @@ The goal of this project is to build a **machine learning model** to predict **d
   - **Age vs. BMI** (by Diabetes Status)  
   - **High BP vs. High Cholesterol**  
   - **Diabetes Distribution by Key Indicators**  
+
+---
+
+## Usage Guide
+
+### 1️⃣ Clone the Repo
+To run this project locally, follow these steps:
+
+```bash
+git clone https://github.com/AidanDavid/DiabetesPredictor.git
+cd DiabetesPredictor
+```
+
+### 2️⃣ Running the Analysis
+Launch Jupyter Notebook:
+
+```bash
+jupyter notebook
+```
+Ensure all required Python libraries are installed:
+
+```bash
+pip install -r requirements.txt
+```
+
+Open the relevant notebook file and execute the cells step by step to **analyze and visualize diabetes risk factors**.
 
 ---
 
@@ -57,32 +83,6 @@ The goal of this project is to build a **machine learning model** to predict **d
 - **Sex** – Gender of the individual  
   - `0 = Female`  
   - `1 = Male`  
-
----
-
-## Usage Guide
-
-### 1️⃣ Clone the Repo
-To run this project locally, follow these steps:
-
-```bash
-git clone https://github.com/AidanDavid/DiabetesPredictor.git
-cd DiabetesPredictor
-```
-
-### 2️⃣ Running the Analysis
-Launch Jupyter Notebook:
-
-```bash
-jupyter notebook
-```
-Ensure all required Python libraries are installed:
-
-```bash
-pip install -r requirements.txt
-```
-
-Open the relevant notebook file and execute the cells step by step to **analyze and visualize diabetes risk factors**.
 
 ---
 
