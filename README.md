@@ -31,7 +31,7 @@ The goal of this project is to build a **machine learning model** to predict **d
 
 ## Usage Guide
 
-### 1️⃣ Clone the Repo
+### 1. Clone the Repo
 To run this project locally, follow these steps:
 
 ```bash
@@ -39,19 +39,29 @@ git clone https://github.com/AidanDavid/DiabetesPredictor.git
 cd DiabetesPredictor
 ```
 
-### 2️⃣ Running the Analysis
-Launch Jupyter Notebook:
-
-```bash
-jupyter notebook
-```
+### 2. Install Dependencies
 Ensure all required Python libraries are installed:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Open the relevant notebook file and execute the cells step by step to **analyze and visualize diabetes risk factors**.
+### 3. Train the Model
+Before running the web app, you **must generate** the model file. Open Jupyter Notebook and run the training script:
+
+```bash
+jupyter notebook
+```
+- Navigate to `notebooks/train_model.ipynb`
+- Run all the cells to **train and save `model.pkl`**
+
+### 4. Run the Web App
+Once `model.pkl` is created, launch the Flask app:
+
+```bash
+python app.py
+```
+- Open your browser and go to **[http://127.0.0.1:5000/](http://127.0.0.1:5000/)** to interact with the application.
 
 ---
 
@@ -64,23 +74,23 @@ Open the relevant notebook file and execute the cells step by step to **analyze 
   - `2 = Diabetes`  
 
 ### **Key Features**
-- **BMI** – Body Mass Index (continuous value)  
-- **High Blood Pressure (BP)** – Indicator of hypertension  
+- **BMI** - Body Mass Index (continuous value)  
+- **High Blood Pressure (BP)** - Indicator of hypertension  
   - `0 = No High BP`  
   - `1 = High BP`  
-- **High Cholesterol (Chol)** – Indicator of cholesterol levels  
+- **High Cholesterol (Chol)** - Indicator of cholesterol levels  
   - `0 = No High Cholesterol`  
   - `1 = High Cholesterol`  
-- **Physical Activity** – Engagement in physical activity (excluding job-related activity)  
+- **Physical Activity** - Engagement in physical activity (excluding job-related activity)  
   - `0 = No`  
   - `1 = Yes`  
-- **Age** – Originally, the dataset categorized age into only three broad groups:
+- **Age** - Originally, the dataset categorized age into only three broad groups:
   - `1 = 18-24`  
   - `9 = 60-64`  
   - `13 = 80 or older`  
   
   For **better visualization and clarity**, the age groups have been **divided into finer categories** (e.g., 18-24, 25-29, 30-34, etc.), making the trends more interpretable.
-- **Sex** – Gender of the individual  
+- **Sex** - Gender of the individual  
   - `0 = Female`  
   - `1 = Male`  
 
@@ -99,7 +109,7 @@ Explore the **Tableau Public dashboard** (Tableau Public Workbook) to visualize 
 
 ### **Example Visualizations:**
 
-#### **Age Group vs. Average BMI** （The thicker of the Line means the high Blood Pressure）
+#### **Age Group vs. Average BMI** (The thicker of the Line means the high Blood Pressure)
 ![Age vs. Avg BMI](./image/age_vs_avg_bmi.jpg)
 
 
