@@ -125,6 +125,12 @@ Explore the **Tableau Public dashboard** (Tableau Public Workbook) to visualize 
 - **Pandas**: For data manipulation and aggregation.  
 - **Jupyter Notebook**: For executing data science workflows.  
 - **Tableau Public**: For interactive data visualization.  
+- **Pickle**: Loads the trained model from a file.  
+- **Pandas**: Creates DataFrames from user input.  
+- **HTML & Bootstrap**: 
+  - **Bootstrap**: Enhances page styling and responsiveness.  
+  - **Form Submission**: Sends data via POST request to `/predict`, where the model processes it.  
+  - **Dynamic Result Display**: Shows predictions in real time as success messages.  
 
 ---
 
